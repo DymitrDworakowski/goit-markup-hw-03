@@ -1,0 +1,208 @@
+a {
+    text-decoration: none;
+}
+
+/* ===Varible=== */
+:root {
+    --color-main: #757575;
+    --color-dark: #212121;
+    --color-hover: #2196F3;
+    --font-weight: 500;
+    --font-size: 14px;
+}
+
+/* ===Body=== */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-dark);
+}
+/* ===Section=== */
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+/* ===Container=== */
+.container{
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ECECEC;
+}
+/* ===Container-Footer=== */
+.container-footer{
+    background-color: #2F303A;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+/* ===Logo-Web=== */
+.logo-link {
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: #000000;
+    padding-left: 215px;
+}
+.logo-link-span {
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: var(--color-hover);
+}
+/* ===Logo-Web-Footer=== */
+.logo-link-footer{
+    font-family: 'Raleway';
+    font-weight: 700;
+    color:var(--color-hover);
+    padding-left: 215px;
+}
+.logo-link-span-footer{
+    font-family: 'Raleway';
+    font-weight: 700;
+    color:#FFFFFF;
+    
+}
+/* ===Nav=== */
+.nav-link {
+    font-weight: var(--font-weight);
+    color: var(--color-dark);
+    font-size: var(--font-size);
+    line-height: 1.14;
+
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--color-hover);
+}
+
+/* ===Contacts Headre/Footer=== */
+.contacts {
+    font-style: normal;
+    font-weight: var(--font-weight);
+    color: var(--color-main);
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--color-hover);
+}
+
+/* ==Adres Header/Footer== */
+
+.adres {
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: 0.03em
+}
+
+.adres:hover,
+.adres:focus {
+    color: var(--color-hover);
+    
+}
+.adres-blok-footer{
+    padding-left: 215px;
+    
+    
+}
+/* =============FIRST PAGE============= */
+.section-h1{
+    padding-top:200;
+    padding-bottom:200;
+    background-color: #2F303A;
+    text-align: center;
+}
+.h1-title {
+    font-style: normal;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+/* ==Button Posluga== */
+.button-main {
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: var(--color-hover);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    
+}
+
+/* ===Main Kontent=== */
+.item-detal {}
+
+.title-detal {
+    line-height: 1.14;
+    color: var(--color-dark);
+    font-size: var(--font-size);
+}
+
+.text-detal {
+    line-height: 1.71;
+    color: var(--color-main);
+    font-size: var(--fot-size);
+}
+
+/* ===Komanda=== */
+.blok-img-title {
+    font-size: 36px;
+    color: var(--color-dark);
+    line-height: 1.16;
+}
+
+.img-komanda {}
+
+.title-team {
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--color-dark);
+    font-weight: var(--font-weight);
+}
+
+.text-team {
+    font-size: 16px;
+    line-height: 1.18;
+    font-weight: 400;
+    color: var(--color-main)
+}
+
+/* =============SECOND PAGE============= */
+.buttons-link {
+    color: var(--color-dark);
+    list-style: none;
+    line-height: 1.62;
+    font-size: 16px;
+}
+
+.buttons-link:hover,
+.buttons-link:focus {
+    background-color: var(--color-hover);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* ===Our projects=== */
+.title-projects {
+    font-size: 18px;
+    line-height: 2;
+    color: var(--color-dark);
+    font-weight: 700;
+}
+
+.text-projects {
+    font-size: 16px;
+    line-height: 1.18;
+    font-weight: 400;
+    color: var(--color-main)
+}
