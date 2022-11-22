@@ -2,6 +2,15 @@ a {
     text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+ul,
+p {
+    margin: 0;
+    padding: 0;
+}
+
 /* ===Varible=== */
 :root {
     --color-main: #757575;
@@ -26,9 +35,12 @@ body {
     width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
+}
+/* ===Container-Flex */
+.container-flex {
     display: flex;
     align-items: center;
-    border: 1px solid #ECECEC;
+    
 }
 /* ===Container-Footer=== */
 .container-footer{
@@ -36,17 +48,43 @@ body {
     padding-bottom: 60px;
     padding-top: 60px;
 }
+/* ===Header=== */
+
+.header {
+    border: 1px solid #ECECEC;
+}
+header a {
+    padding: 24px 0px;
+    
+}
+.header-list {
+    display: flex;
+    font-size: var(--font-size);
+    line-height: 1.14;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    margin-right: 345px;
+}
+.header-list>.nav-link:not(:last-child) {
+    margin-right: 50px;
+}
+
 /* ===Logo-Web=== */
 .logo-link {
     font-family: 'Raleway';
     font-weight: 700;
-    color: #000000;
-    padding-left: 215px;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--color-hover);
+    text-decoration: none;
+    margin-right: 93px;
 }
 .logo-link-span {
     font-family: 'Raleway';
     font-weight: 700;
-    color: var(--color-hover);
+    color: #000000;
 }
 /* ===Logo-Web-Footer=== */
 .logo-link-footer{
@@ -66,8 +104,6 @@ body {
     font-weight: var(--font-weight);
     color: var(--color-dark);
     font-size: var(--font-size);
-    line-height: 1.14;
-
 }
 
 .nav-link:hover,
@@ -76,10 +112,14 @@ body {
 }
 
 /* ===Contacts Headre/Footer=== */
+.contacts-list>.contacts:not(:last-child) {
+    margin-right: 50px;
+}
 .contacts {
     font-style: normal;
     font-weight: var(--font-weight);
     color: var(--color-main);
+    
 }
 
 .contacts:hover,
@@ -108,10 +148,12 @@ body {
 }
 /* =============FIRST PAGE============= */
 .section-h1{
-    padding-top:200;
-    padding-bottom:200;
     background-color: #2F303A;
     text-align: center;
+    width: auto;
+    height: 600px;
+    left: 0px;
+    top: 80px;
 }
 .h1-title {
     font-style: normal;
